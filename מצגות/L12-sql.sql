@@ -22,10 +22,11 @@ inner join countries on cities.country = countries.ID
 select Products.Name,Products.Price,Products.Price*1.17 as Kolel_maam
 from Products
 
-select DISTINCT Category
+select DISTINCT Category,price
 from Products
 
 
-select Products.Name,Products.Price
+select Category
 from Products
-where price < 50
+group by Category
+order by Category
