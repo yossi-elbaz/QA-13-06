@@ -1,0 +1,21 @@
+p{
+    font-size: 30px;
+    color: darkmagenta; 
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: chocolate;   
+    width: 200px; 
+}
+
+span {
+    background-color: chocolate;
+    font-size: 50px;
+}
+
+body {
+    background-color: rgb(218, 255, 9);
+    background-image: url("12.png");
+    /* background-repeat: no-repeat; */
+    background-clip: content-box;
+    /* background-size: cover; */
+}
