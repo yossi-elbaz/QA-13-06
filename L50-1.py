@@ -1,6 +1,6 @@
 # import random
-print("Hello")
-print("Hi QA class!")
+# print("Hello")
+# print("Hi QA class!")
 # עזרה
 # help()
 
