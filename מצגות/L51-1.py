@@ -36,10 +36,10 @@ import random
 
 # לולאת while
 
-# age = 15
-# while age < 18:
-#     age +=1
-#     print("Not yet 18")
+# number_of_bugs = 1
+# while number_of_bugs < 5:
+#     number_of_bugs +=1 # number_of_bugs = number_of_bugs + 1
+#     print("Not Critical")
 
 # while True:
 #     print("Hi")
@@ -53,11 +53,12 @@ import random
 #     print("Hi")
 #     while True:
 #         print("Bye")
-#         break      
+#         break     
+#     break 
 
 # i=1
 # while i<75:
-#     if i%2 == 0:
+#     if i%2 != 0:
 #       print(i,end =" ") # use end = " " to print in the same line
 #     i += 1
 
@@ -73,14 +74,14 @@ import random
 # for i in range(10):
 #      print(i, end = " ")
 
-# for i in range(1,10,1):
+# for i in range(2,10,1):
 #     print(i, end = " ")
 
-# for i in range(2,75,2):
+# for i in range(3,75,5):
 #     print(i, end = " ")
 
-# for i in range(21):
-#     print("i ^",i, "=",2**i)
+for i in range(21):
+    print("2 ^",i, "=",2**i)
 
 # מחרוזות
 
