@@ -2,17 +2,21 @@ import random
 
 # פונקציות
 
-# def hello():
+# def print_hello():
 #     print("Hello class")
+#     print("Hello class")
+#     print("Hello class")
+#     print("Hello class")
+# print("Hello class")
 
-# hello()
+# print_hello()
 
-# def print_seven():
-#     x = 7
+# def print_seven(a):
+#     x = 7*a
 #     return x
 
-# a = print_seven()
-# print(a)
+# print_seven(6)
+# print(print_seven(6))
 
 # def seven_eleven():
 #     x = 7
@@ -25,19 +29,21 @@ import random
 # def speak():
 #     word = "hi"
 #     print(word)
+
 # speak()
+
 # print(word)
 
 # הגדרת List
 
-# my_list = [11, 'aaa', 35.6, True]
+my_list = [11, 'aaa', 35.6, True]
 
-# print(my_list[0])
+print(my_list[0])
 
-# for i in range(len(my_list)):
-#     print(my_list[i], end = " ")
+for i in range(len(my_list)):
+    print(my_list[i], end = " ")
 
-# print()
+print()
 
 # for i in my_list:
 #     print(i, end = " ")
@@ -77,22 +83,22 @@ import random
 
 # הגדרת Dictionary
 
-car = {
-    "brand": "Ford",
-    "model": "Mustang",
-    "year": 1964
-    }
-for x in car:
-    print(x, "=", car[x])
+# car = {
+#     "brand": "Ford",
+#     "model": "Mustang",
+#     "year": 1964
+#     }
+# for x in car:
+#     print(x, "=", car[x])
 
-car["color"] = "white"
+# car["color"] = "white"
 
-print()
-for x in car:
-    print(x, "=", car[x])
+# print()
+# for x in car:
+#     print(x, "=", car[x])
 
-car.update({"year": 2000})
+# car.update({"year": 2000})
 
-print()
-for x in car:
-    print(x, "=", car[x])
+# print()
+# for x in car:
+#     print(x, "=", car[x])
