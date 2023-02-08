@@ -80,14 +80,26 @@ import random
 # for i in range(3,75,5):
 #     print(i, end = " ")
 
-for i in range(21):
-    print("2 ^",i, "=",2**i)
+# for i in range(21):
+#     print("2 ^",i, "=",2**i)
+
+# for i in range(8):
+#     for j in range (i):
+#         print("*", end ="")
+#     print()
+
+# for i in range(8):    
+#     print("*"*i)
+  
 
 # מחרוזות
 
 # greetings ='Hello'
 # greetings ="Hello"
 # greetings = "what's up, doc?"
+# greetings = 'Hi "QA"'
+
+# print(greetings)
 
 # a=2
 # b=3
@@ -96,17 +108,18 @@ for i in range(21):
 # a='2'
 # b='3'
 # print(a+b)
+# print(type(a+b))
 
 # a=2
-# b='3'
+# b=int('3')
 # print(a+b)
 
 # חיתוך מחרוזות
 
 # greetings ='Hello class QA'
 # print(greetings[0:2])
-# print(greetings[1:5])
-# print(greetings[-1])
+# print(greetings[1:7])
+# print(greetings[-5:-1])
 
 # print(greetings[-1::-1]) # מה זה מדפיס?
 
@@ -115,4 +128,4 @@ for i in range(21):
 # print(len(message))
 # print(message.upper())
 # print(message.lower())
-# print(message.find('o'))
+# print(message.find('s'))
