@@ -36,14 +36,14 @@ import random
 
 # הגדרת List
 
-my_list = [11, 'aaa', 35.6, True]
+# my_list = [11, 'aaa', 35.6, True]
 
-print(my_list[0])
+# print(my_list[0])
 
-for i in range(len(my_list)):
-    print(my_list[i], end = " ")
+# for i in range(len(my_list)):
+#     print(my_list[i], end = " ")
 
-print()
+# print()
 
 # for i in my_list:
 #     print(i, end = " ")
@@ -63,7 +63,7 @@ print()
 #     print(i, end = " ")
 
 # print()
-# shopping_list.pop(0)
+# shopping_list.pop(1)
 
 # for i in shopping_list:
 #     print(i, end = " ")
@@ -74,31 +74,32 @@ print()
 # for i in shopping_list:
 #     print(i, end = " ")
 
-# my_sentence='Welcome to QA 2023 class'
-# words = my_sentence.split(' ')
+# my_sentence='alex@gmail.com'
+# avi = my_sentence.split('@')
 
 # print()
-# for i in words:
+# for i in avi:
 #     print(i, "#", end = " ")
 
 # הגדרת Dictionary
 
-# car = {
-#     "brand": "Ford",
-#     "model": "Mustang",
-#     "year": 1964
-#     }
-# for x in car:
-#     print(x, "=", car[x])
+car = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964,
+    "new": False
+    }
+for x in car:
+    print(x, "=", car[x])
 
-# car["color"] = "white"
+car["color"] = "white"
 
-# print()
-# for x in car:
-#     print(x, "=", car[x])
+print()
+for x in car:
+    print(x, "=", car[x])
 
-# car.update({"year": 2000})
+car.update({"year": 2000})
 
-# print()
-# for x in car:
-#     print(x, "=", car[x])
+print()
+for x in car:
+    print(x, "=", car[x])
